@@ -1,0 +1,20 @@
+var firstname = "Eshwar";
+var age = 20;
+console.log("\n");
+console.log("My name is typeof ".concat(firstname, " and my age is ").concat(age));
+console.log('type of name :- ', typeof firstname);
+console.log("age data type :- ", isNaN(age));
+console.log("\n");
+var numberArray = [1, "2", 3, 4];
+console.log("Number array :- ".concat(numberArray));
+console.log('type of numberArray :- ', typeof numberArray);
+console.log("type of array element :- ", Array.isArray(numberArray));
+console.log("\n");
+var numberArray1 = [10, 20, 30, 40];
+console.log("Number array 1 :- ".concat(numberArray1));
+console.log('type of numberArray 1 :- ', typeof numberArray1);
+console.log("\n");
+var tuple1 = [20, "Eshwar"];
+// console.clear()
+console.log("tuple as it is :- ", tuple1);
+console.log("tuple :- ", tuple1.toString().split(","));
